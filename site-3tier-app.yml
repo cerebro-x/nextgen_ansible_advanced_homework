@@ -17,7 +17,7 @@
 - name: Get database IP address with hostvars for app servers
   hosts: appdbs
   gather_facts: true
-  tag: apps
+  tags: apps
   tasks: []
 
 - name: setup app tier
