@@ -10,7 +10,7 @@
       - osp.smoke
 
   - debug:
-      msg: "{{ openstack_info.ansible_facts.openstack_servers.public_v4 }}"
+      msg: "{{ openstack_info.ansible_facts.openstack_servers.id }}"
   
   #- name: Curl website
   #  uri:
